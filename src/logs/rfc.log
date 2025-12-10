@@ -1,0 +1,94 @@
+=== rfc.py started at 20251210_182625 ===
+
+Loaded pretrained ResNet-50 as feature extractor.
+Extracting train features...
+
+Train features:   0%|          | 0/92 [00:00<?, ?batch/s]
+Train features:   1%|          | 1/92 [00:00<00:24,  3.64batch/s]
+Train features:   3%|▎         | 3/92 [00:00<00:11,  7.73batch/s]
+Train features:   5%|▌         | 5/92 [00:00<00:08,  9.79batch/s]
+Train features:   8%|▊         | 7/92 [00:00<00:07, 11.01batch/s]
+Train features:  10%|▉         | 9/92 [00:00<00:07, 11.60batch/s]
+Train features:  12%|█▏        | 11/92 [00:01<00:06, 12.00batch/s]
+Train features:  14%|█▍        | 13/92 [00:01<00:06, 12.31batch/s]
+Train features:  16%|█▋        | 15/92 [00:01<00:06, 12.57batch/s]
+Train features:  18%|█▊        | 17/92 [00:01<00:05, 12.78batch/s]
+Train features:  21%|██        | 19/92 [00:01<00:05, 12.79batch/s]
+Train features:  23%|██▎       | 21/92 [00:01<00:05, 12.92batch/s]
+Train features:  25%|██▌       | 23/92 [00:01<00:05, 13.03batch/s]
+Train features:  27%|██▋       | 25/92 [00:02<00:05, 13.06batch/s]
+Train features:  29%|██▉       | 27/92 [00:02<00:04, 13.07batch/s]
+Train features:  32%|███▏      | 29/92 [00:02<00:04, 13.13batch/s]
+Train features:  34%|███▎      | 31/92 [00:02<00:04, 12.94batch/s]
+Train features:  36%|███▌      | 33/92 [00:02<00:04, 13.02batch/s]
+Train features:  38%|███▊      | 35/92 [00:02<00:04, 13.09batch/s]
+Train features:  40%|████      | 37/92 [00:03<00:04, 13.12batch/s]
+Train features:  42%|████▏     | 39/92 [00:03<00:04, 13.18batch/s]
+Train features:  45%|████▍     | 41/92 [00:03<00:03, 13.19batch/s]
+Train features:  47%|████▋     | 43/92 [00:03<00:03, 13.24batch/s]
+Train features:  49%|████▉     | 45/92 [00:03<00:03, 13.26batch/s]
+Train features:  51%|█████     | 47/92 [00:03<00:03, 13.23batch/s]
+Train features:  53%|█████▎    | 49/92 [00:03<00:03, 13.24batch/s]
+Train features:  55%|█████▌    | 51/92 [00:04<00:03, 13.25batch/s]
+Train features:  58%|█████▊    | 53/92 [00:04<00:02, 13.22batch/s]
+Train features:  60%|█████▉    | 55/92 [00:04<00:02, 13.23batch/s]
+Train features:  62%|██████▏   | 57/92 [00:04<00:02, 13.24batch/s]
+Train features:  64%|██████▍   | 59/92 [00:04<00:02, 13.29batch/s]
+Train features:  66%|██████▋   | 61/92 [00:04<00:02, 13.30batch/s]
+Train features:  68%|██████▊   | 63/92 [00:04<00:02, 13.30batch/s]
+Train features:  71%|███████   | 65/92 [00:05<00:02, 13.19batch/s]
+Train features:  73%|███████▎  | 67/92 [00:05<00:01, 13.18batch/s]
+Train features:  75%|███████▌  | 69/92 [00:05<00:01, 13.19batch/s]
+Train features:  77%|███████▋  | 71/92 [00:05<00:01, 13.10batch/s]
+Train features:  79%|███████▉  | 73/92 [00:05<00:01, 12.69batch/s]
+Train features:  82%|████████▏ | 75/92 [00:05<00:01, 12.85batch/s]
+Train features:  84%|████████▎ | 77/92 [00:06<00:01, 12.96batch/s]
+Train features:  86%|████████▌ | 79/92 [00:06<00:00, 13.05batch/s]
+Train features:  88%|████████▊ | 81/92 [00:06<00:00, 13.11batch/s]
+Train features:  90%|█████████ | 83/92 [00:06<00:00, 13.15batch/s]
+Train features:  92%|█████████▏| 85/92 [00:06<00:00, 13.18batch/s]
+Train features:  95%|█████████▍| 87/92 [00:06<00:00, 12.84batch/s]
+Train features:  97%|█████████▋| 89/92 [00:06<00:00, 12.95batch/s]
+Train features:  99%|█████████▉| 91/92 [00:07<00:00, 13.02batch/s]
+Train features: 100%|██████████| 92/92 [00:07<00:00, 12.77batch/s]
+Extracting val features...
+
+Val features:   0%|          | 0/23 [00:00<?, ?batch/s]
+Val features:   9%|▊         | 2/23 [00:00<00:01, 12.35batch/s]
+Val features:  17%|█▋        | 4/23 [00:00<00:01, 13.01batch/s]
+Val features:  26%|██▌       | 6/23 [00:00<00:01, 13.25batch/s]
+Val features:  35%|███▍      | 8/23 [00:00<00:01, 13.16batch/s]
+Val features:  43%|████▎     | 10/23 [00:00<00:00, 13.29batch/s]
+Val features:  52%|█████▏    | 12/23 [00:00<00:00, 13.35batch/s]
+Val features:  61%|██████    | 14/23 [00:01<00:00, 13.36batch/s]
+Val features:  70%|██████▉   | 16/23 [00:01<00:00, 12.66batch/s]
+Val features:  78%|███████▊  | 18/23 [00:01<00:00, 13.02batch/s]
+Val features:  87%|████████▋ | 20/23 [00:01<00:00, 13.03batch/s]
+Val features:  96%|█████████▌| 22/23 [00:01<00:00, 13.20batch/s]
+Val features: 100%|██████████| 23/23 [00:01<00:00, 13.14batch/s]
+Train features shape: (2929, 2048)
+Val   features shape: (733, 2048)
+Fitting RandomForest on extracted features...
+=== RandomForest on ResNet-50 features ===
+  Train Acc: 0.9932
+  Val   Acc: 0.7408
+
+Validation classification report:
+              precision    recall  f1-score   support
+
+           0     0.9120    0.9744    0.9421       351
+           1     0.7931    0.2644    0.3966        87
+           2     0.5411    0.8769    0.6693       195
+           3     0.4286    0.0769    0.1304        39
+           4     0.6667    0.0656    0.1194        61
+
+    accuracy                         0.7408       733
+   macro avg     0.6683    0.4516    0.4516       733
+weighted avg     0.7531    0.7408    0.6931       733
+
+Validation confusion matrix:
+[[342   3   6   0   0]
+ [ 15  23  49   0   0]
+ [ 18   3 171   2   1]
+ [  0   0  35   3   1]
+ [  0   0  55   2   4]]

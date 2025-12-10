@@ -1,15 +1,10 @@
-import numpy as np
-import pandas as pd
-import torch
-
-import matplotlib
-import sys
 import os
 from tqdm import tqdm
-#import transformers
 
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, random_split
+
+os.makedirs("src/cnn_checkpoints", exist_ok=True)
 
 
 transform = transforms.Compose([
@@ -112,3 +107,13 @@ for epoch in range(EPOCHS):
 
     print(f"  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}")
     print(f"  Val   Loss: {val_loss:.4f} | Val   Acc: {val_acc:.4f}")
+
+    if (epoch + 1) % 2 == 0:
+        ckpt_path = f"cnn_checkpoints/{epoch + 1}.pth"
+        torch.save({
+            "epoch": epoch + 1,
+            "model_state_dict": model.state_dict(),
+            "optimizer_state_dict": optimizer.state_dict(),
+            "val_acc": val_acc,
+        }, ckpt_path)
+        print(f"Saved checkpoint: {ckpt_path}")
